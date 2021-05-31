@@ -1,7 +1,7 @@
 {
   "name": "app.js",
   "version": "1.0.0",
-  "description": "Pagina de perros",
+  "description": "Medidor de alcohol",
   "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omar-14/Perros_del_Mundo.git"
+    "url": "git+https://github.com/omar-14/medidor.alcohol.git"
   },
   "author": "Omar R",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/omar-14/Perros_del_Mundo/issues"
+    "url": "https://github.com/omar-14/medidor.alcohol.git"
   },
-  "homepage": "https://github.com/omar-14/Perros_del_Mundo#readme"
+  "homepage": "https://github.com/omar-14/medidor.alcohol.git"
 }
