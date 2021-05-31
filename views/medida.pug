@@ -1,0 +1,15 @@
+doctype html 
+html
+    head
+        title #{capacidad}%
+        meta(charset="utf-8")
+        link(rel="stylesheet" href="vaso.css")
+    body
+        main
+            h1 Medidor de alcohol.
+
+            h2 #{data.texto}
+            figure
+                img( src=data.imagen width=400)
+                
+            a(href="/") Regresar 

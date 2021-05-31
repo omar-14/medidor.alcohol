@@ -8,9 +8,9 @@ html
         main
             h1 #{titulo}
             figure
-                img(src=imagen)
+                img(src=imagen width="400px")
                 figcaption #{texto}
             ul
-                each perro in perros
+                each vaso in vasos
                     li 
-                        a(href="perro/"+perro.raza) #{perro.raza} &nbsp; | &nbsp;
+                        a(href="vaso/"+vaso.capacidad) #{vaso.capacidad} &nbsp; | &nbsp;
